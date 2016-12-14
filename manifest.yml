@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: alfiiot
+  host: alfiiot
+  disk_quota: 1024M
+  services:
+  - alfiiot-cloudantNoSQLDB
+  - alfiiot-iotf-service
